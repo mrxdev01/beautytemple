@@ -1,0 +1,12 @@
+{
+  "name": "The Beauty Temple",
+  "short_name": "Beauty Temple",
+  "description": "Beauty salon in Pratap Nagar, Jaipur",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff8f1",
+  "theme_color": "#c8a96a",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
