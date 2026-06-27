@@ -30,7 +30,7 @@ export const BUSINESS = {
   geo: { lat: 26.7995604, lng: 75.8158025 },
   mapsLink: "https://maps.app.goo.gl/PqXaS2SpWyLVNhvX9",
   mapEmbed:
-    "https://maps.app.goo.gl/PqXaS2SpWyLVNhvX9",
+    "https://www.google.com/maps?q=ISKCON+Bangalore,+Hare+Krishna+Hill,+Chord+Rd,+Rajajinagar,+Bengaluru,+Karnataka+560010&output=embed",
   rating: 4.8,
   reviewCount: 442,
 };
