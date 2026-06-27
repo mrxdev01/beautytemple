@@ -3,36 +3,36 @@ import { Scissors, Sparkles, Flower2, Hand, Footprints, Brush, Eye, Droplets, Pa
 export const SITE_URL: string = ""; // TODO: set after publish
 
 export const BUSINESS = {
-  name: "The Beauty Temple",
-  shortName: "Beauty Temple",
+  name: "Beauty Salon",
+  shortName: "Beauty Salon",
   type: "Beauty Salon",
   tagline: "Premium beauty salon in Pratap Nagar, Jaipur",
   description:
     "A modern beauty salon in Pratap Nagar, Jaipur offering hair, skin, nails, makeup, and grooming services.",
-  phone: "+91 9875758280",
-  phoneTel: "tel:+919875758280",
-  whatsapp: "919875758280",
-  whatsappText: "Hi%20The%20Beauty%20Temple%2C%20I%20want%20to%20book%20a%20salon%20appointment.",
+  phone: "+91 9999999999",
+  phoneTel: "tel:+919999999999",
+  whatsapp: "919999999999",
+  whatsappText: "Hi%20The%20Beauty%Salon%2C%20I%20want%20to%20book%20a%20salon%20appointment.",
   get whatsappLink() {
     return `https://wa.me/${this.whatsapp}?text=${this.whatsappText}`;
   },
-  email: "",
-  addressLine: "151, Bhamasha Marg, Tirupati Balaji Nagar, Sector 8",
-  addressArea: "Sector 6, Pratap Nagar",
+  email: "abc@salon.com",
+  addressLine: "1, Bhamasha Marg, Balaji Nagar, Sector 3",
+  addressArea: "Sector 3, Pratap Nagar",
   city: "Jaipur",
   region: "Rajasthan",
   postalCode: "302033",
   country: "IN",
   fullAddress:
-    "151, 151, Bhamasha Marg, Tirupati Balaji Nagar, Sector 8, Sector 6, Pratap Nagar, Jaipur, Rajasthan 302033",
+    "1 Bhamasha Marg, Tirupati Balaji Nagar, Sector 3, Sector 3, Pratap Nagar, Jaipur, Rajasthan 302033",
   hours: "Mon–Sun · 8:00 AM – 10:00 PM",
   hoursStructured: "Mo-Su 08:00-22:00",
   geo: { lat: 26.7995604, lng: 75.8158025 },
-  mapsLink: "https://maps.app.goo.gl/13M7jV7fAohQMJj99",
+  mapsLink: "https://maps.app.goo.gl/PqXaS2SpWyLVNhvX9",
   mapEmbed:
-    "https://www.google.com/maps?q=The+Beauty+Temple+Pratap+Nagar+Jaipur&output=embed",
+    "https://maps.app.goo.gl/PqXaS2SpWyLVNhvX9",
   rating: 4.8,
-  reviewCount: 120,
+  reviewCount: 442,
 };
 
 export const NAV: Array<[string, string]> = [
